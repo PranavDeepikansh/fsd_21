@@ -16,10 +16,10 @@ function test3(cb) {
       cb();
   }, 500);
 }
-function test4(cb) {
+function test4() {
   setTimeout(() => {
       console.log("test4");
-      cb();
+    //   cb();
   }, 100);
 }
 test1(() => {
